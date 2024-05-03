@@ -1,1 +1,8 @@
-e410edfed8f4e42b6fa8ce2928403bc2882f084f
+package org.dows.sdk;
+
+import lombok.Data;
+
+@Data
+public class GitlabRequest {
+    private String host;
+}

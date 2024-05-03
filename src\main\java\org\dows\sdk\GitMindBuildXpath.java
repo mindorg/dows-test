@@ -1,1 +1,12 @@
-a23480747610c39fd31e93ba5ccb4c8329967d66
+package org.dows.sdk;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class GitMindBuildXpath {
+    private String mindFileName;
+    private List<String> databaseXpath;
+    private List<String> apiXpath;
+}

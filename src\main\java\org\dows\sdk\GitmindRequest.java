@@ -1,1 +1,12 @@
-a02a06a8963bfa30fd0fb236ee1f14a2a16d7221
+package org.dows.sdk;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class GitmindRequest {
+    private String username;
+    private String password;
+    private List<GitMindBuildXpath> gitMindBuildXpaths;
+}

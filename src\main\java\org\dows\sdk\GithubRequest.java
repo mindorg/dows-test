@@ -1,1 +1,8 @@
-16d0832ed431db0b4fff03dc848820c04c964fb1
+package org.dows.sdk;
+
+import lombok.Data;
+
+@Data
+public class GithubRequest {
+    private String host;
+}
